@@ -1,0 +1,24 @@
+{
+
+		"customer" : {
+			"customerId" : 1,
+			"name" : "Test Customer",
+			"email": "test@test.com",
+			"address": "100 Church Street"
+		},
+		"orderTotal" : 0,
+		"orderLines" : [
+			{
+				"book" : {
+					"bookId" : 1,
+					"isbn" : "123-4567-890",
+					"title" : "Ocean of Seas",
+					"price" : 15
+				},
+				"quantity" : 10,
+				"itemTotal" : 0
+			}
+		],
+		"createdAt" : "",
+		"isFulfilled" : false
+}
